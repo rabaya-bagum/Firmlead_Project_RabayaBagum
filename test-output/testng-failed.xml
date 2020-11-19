@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Testing LoginPage]">
+  <test thread-count="5" name="LoginPage_Create_an_Account(failed)">
+    <classes>
+      <class name="firmLead_TechnicalInterview.LoginPage_Create_an_Account">
+        <methods>
+          <include name="landingPage"/>
+          <include name="TerminateDriver"/>
+          <include name="LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email"/>
+          <include name="BackToLandingPage"/>
+        </methods>
+      </class> <!-- firmLead_TechnicalInterview.LoginPage_Create_an_Account -->
+    </classes>
+  </test> <!-- LoginPage_Create_an_Account(failed) -->
+  <test thread-count="5" name="LoginPage_LoginFunctionality(failed)">
+    <classes>
+      <class name="firmLead_TechnicalInterview.LoginPage_LoginFunctionality">
+        <methods>
+          <include name="loginFunctionality_014_ValidEmail_ValidPassword"/>
+          <include name="BackToLandingPage"/>
+          <include name="landingPage"/>
+          <include name="TerminateDriver"/>
+        </methods>
+      </class> <!-- firmLead_TechnicalInterview.LoginPage_LoginFunctionality -->
+    </classes>
+  </test> <!-- LoginPage_LoginFunctionality(failed) -->
+</suite> <!-- Failed suite [Functional Testing LoginPage] -->

@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Functional_Testing_LoginPage">
+              <span class="suite-name border-failed">Functional Testing LoginPage</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Functional_Testing_LoginPage">
+                    <span>C:\Users\rabay\eclipse-busyQA\workspace\FirmLead_project\FirmLead_TechnicalInterview.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Functional_Testing_LoginPage">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Functional_Testing_LoginPage">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Functional_Testing_LoginPage">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Functional_Testing_LoginPage">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Functional_Testing_LoginPage">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Functional_Testing_LoginPage">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Functional_Testing_LoginPage" class="hide-methods failed suite-Functional_Testing_LoginPage"> (hide)</a> <!-- hide-methods failed suite-Functional_Testing_LoginPage -->
+                      <a href="#" panel-name="suite-Functional_Testing_LoginPage" class="show-methods failed suite-Functional_Testing_LoginPage"> (show)</a> <!-- show-methods failed suite-Functional_Testing_LoginPage -->
+                    </span>
+                    <div class="method-list-content failed suite-Functional_Testing_LoginPage">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email">LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_014_ValidEmail_ValidPassword">loginFunctionality_014_ValidEmail_ValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Functional_Testing_LoginPage -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Functional_Testing_LoginPage" class="hide-methods passed suite-Functional_Testing_LoginPage"> (hide)</a> <!-- hide-methods passed suite-Functional_Testing_LoginPage -->
+                      <a href="#" panel-name="suite-Functional_Testing_LoginPage" class="show-methods passed suite-Functional_Testing_LoginPage"> (show)</a> <!-- show-methods passed suite-Functional_Testing_LoginPage -->
+                    </span>
+                    <div class="method-list-content passed suite-Functional_Testing_LoginPage">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_ForgetPass" hash-for-method="Forget_Password_Linkfunctionality">Forget_Password_Linkfunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_ForgetPass" hash-for-method="Forget_Password_funct">Forget_Password_funct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_001_Clicking_link">LoginPage_CreateAnAccount_001_Clicking_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail">LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname">LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_005_NoCredentials">LoginPage_CreateAnAccount_005_NoCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_006_FirstName">LoginPage_CreateAnAccount_006_FirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_007_LastName">LoginPage_CreateAnAccount_007_LastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_Create_an_Account" hash-for-method="LoginPage_CreateAnAccount_008_Email">LoginPage_CreateAnAccount_008_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_012_Email_TextBoxenable">loginFunctionality_012_Email_TextBoxenable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_013_Password_TextBoxEnable">loginFunctionality_013_Password_TextBoxEnable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_015_InvalidEmail_ValidPassword">loginFunctionality_015_InvalidEmail_ValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_016_ValidEmail_InvalidPassword">loginFunctionality_016_ValidEmail_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_017_NoEmail_NoPassword">loginFunctionality_017_NoEmail_NoPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Functional_Testing_LoginPage" title="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" hash-for-method="loginFunctionality_018_InvalidEmail_InvalidPassword">loginFunctionality_018_InvalidEmail_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Functional_Testing_LoginPage -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Functional_Testing_LoginPage" class="panel Functional_Testing_LoginPage">
+          <div class="suite-Functional_Testing_LoginPage-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firmLead_TechnicalInterview.LoginPage_LoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_014_ValidEmail_ValidPassword">
+                  </a> <!-- loginFunctionality_014_ValidEmail_ValidPassword -->
+                  <span class="method-name">loginFunctionality_014_ValidEmail_ValidPassword</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://demo.combyne.ag/login] but found [https://demo.combyne.ag/login]
+	at firmLead_TechnicalInterview.LoginPage_LoginFunctionality.loginFunctionality_014_ValidEmail_ValidPassword(LoginPage_LoginFunctionality.java:97)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing_LoginPage-class-failed -->
+          <div class="suite-Functional_Testing_LoginPage-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">firmLead_TechnicalInterview.LoginPage_Create_an_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email">
+                  </a> <!-- LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email -->
+                  <span class="method-name">LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [https://demo.combyne.ag/onboard/details] but found [https://demo.combyne.ag/onboard/details]
+	at firmLead_TechnicalInterview.LoginPage_Create_an_Account.LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email(LoginPage_Create_an_Account.java:95)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing_LoginPage-class-failed -->
+          <div class="suite-Functional_Testing_LoginPage-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firmLead_TechnicalInterview.LoginPage_ForgetPass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Forget_Password_Linkfunctionality">
+                  </a> <!-- Forget_Password_Linkfunctionality -->
+                  <span class="method-name">Forget_Password_Linkfunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Forget_Password_funct">
+                  </a> <!-- Forget_Password_funct -->
+                  <span class="method-name">Forget_Password_funct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing_LoginPage-class-passed -->
+          <div class="suite-Functional_Testing_LoginPage-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firmLead_TechnicalInterview.LoginPage_LoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_012_Email_TextBoxenable">
+                  </a> <!-- loginFunctionality_012_Email_TextBoxenable -->
+                  <span class="method-name">loginFunctionality_012_Email_TextBoxenable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_013_Password_TextBoxEnable">
+                  </a> <!-- loginFunctionality_013_Password_TextBoxEnable -->
+                  <span class="method-name">loginFunctionality_013_Password_TextBoxEnable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_015_InvalidEmail_ValidPassword">
+                  </a> <!-- loginFunctionality_015_InvalidEmail_ValidPassword -->
+                  <span class="method-name">loginFunctionality_015_InvalidEmail_ValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_016_ValidEmail_InvalidPassword">
+                  </a> <!-- loginFunctionality_016_ValidEmail_InvalidPassword -->
+                  <span class="method-name">loginFunctionality_016_ValidEmail_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_017_NoEmail_NoPassword">
+                  </a> <!-- loginFunctionality_017_NoEmail_NoPassword -->
+                  <span class="method-name">loginFunctionality_017_NoEmail_NoPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFunctionality_018_InvalidEmail_InvalidPassword">
+                  </a> <!-- loginFunctionality_018_InvalidEmail_InvalidPassword -->
+                  <span class="method-name">loginFunctionality_018_InvalidEmail_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing_LoginPage-class-passed -->
+          <div class="suite-Functional_Testing_LoginPage-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">firmLead_TechnicalInterview.LoginPage_Create_an_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_001_Clicking_link">
+                  </a> <!-- LoginPage_CreateAnAccount_001_Clicking_link -->
+                  <span class="method-name">LoginPage_CreateAnAccount_001_Clicking_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail">
+                  </a> <!-- LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail -->
+                  <span class="method-name">LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname">
+                  </a> <!-- LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname -->
+                  <span class="method-name">LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_005_NoCredentials">
+                  </a> <!-- LoginPage_CreateAnAccount_005_NoCredentials -->
+                  <span class="method-name">LoginPage_CreateAnAccount_005_NoCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_006_FirstName">
+                  </a> <!-- LoginPage_CreateAnAccount_006_FirstName -->
+                  <span class="method-name">LoginPage_CreateAnAccount_006_FirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_007_LastName">
+                  </a> <!-- LoginPage_CreateAnAccount_007_LastName -->
+                  <span class="method-name">LoginPage_CreateAnAccount_007_LastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginPage_CreateAnAccount_008_Email">
+                  </a> <!-- LoginPage_CreateAnAccount_008_Email -->
+                  <span class="method-name">LoginPage_CreateAnAccount_008_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Functional_Testing_LoginPage-class-passed -->
+        </div> <!-- panel Functional_Testing_LoginPage -->
+        <div panel-name="test-xml-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rabay\eclipse-busyQA\workspace\FirmLead_project\FirmLead_TechnicalInterview.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Functional Testing LoginPage&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginPage_Create_an_Account&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firmLead_TechnicalInterview.LoginPage_Create_an_Account&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage_Create_an_Account --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginPage_LoginFunctionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firmLead_TechnicalInterview.LoginPage_LoginFunctionality&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage_LoginFunctionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LoginPage_ForgetPass&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;firmLead_TechnicalInterview.LoginPage_ForgetPass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage_ForgetPass --&gt;
+&lt;/suite&gt; &lt;!-- Functional Testing LoginPage --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Functional Testing LoginPage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginPage_Create_an_Account (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginPage_LoginFunctionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginPage_ForgetPass (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Functional Testing LoginPage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Functional Testing LoginPage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Functional_Testing_LoginPage');
+function tableData_Functional_Testing_LoginPage() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email')
+data.setCell(0, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(0, 3, 629);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginFunctionality_015_InvalidEmail_ValidPassword')
+data.setCell(1, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(1, 3, 597);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginPage_CreateAnAccount_005_NoCredentials')
+data.setCell(2, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(2, 3, 546);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail')
+data.setCell(3, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(3, 3, 505);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginFunctionality_014_ValidEmail_ValidPassword')
+data.setCell(4, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(4, 3, 455);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname')
+data.setCell(5, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(5, 3, 453);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'LoginPage_CreateAnAccount_008_Email')
+data.setCell(6, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(6, 3, 397);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginFunctionality_016_ValidEmail_InvalidPassword')
+data.setCell(7, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(7, 3, 375);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LoginPage_CreateAnAccount_006_FirstName')
+data.setCell(8, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(8, 3, 344);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginFunctionality_017_NoEmail_NoPassword')
+data.setCell(9, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(9, 3, 341);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginFunctionality_018_InvalidEmail_InvalidPassword')
+data.setCell(10, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(10, 3, 337);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginPage_CreateAnAccount_007_LastName')
+data.setCell(11, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(11, 3, 324);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Forget_Password_Linkfunctionality')
+data.setCell(12, 2, 'firmLead_TechnicalInterview.LoginPage_ForgetPass')
+data.setCell(12, 3, 177);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginPage_CreateAnAccount_001_Clicking_link')
+data.setCell(13, 2, 'firmLead_TechnicalInterview.LoginPage_Create_an_Account')
+data.setCell(13, 3, 158);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginFunctionality_012_Email_TextBoxenable')
+data.setCell(14, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(14, 3, 151);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Forget_Password_funct')
+data.setCell(15, 2, 'firmLead_TechnicalInterview.LoginPage_ForgetPass')
+data.setCell(15, 3, 93);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginFunctionality_013_Password_TextBoxEnable')
+data.setCell(16, 2, 'firmLead_TechnicalInterview.LoginPage_LoginFunctionality')
+data.setCell(16, 3, 36);
+window.suiteTableData['Functional_Testing_LoginPage']= { tableData: data, tableDiv: 'times-div-Functional_Testing_LoginPage'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Functional_Testing_LoginPage">
+              </div> <!-- times-div-Functional_Testing_LoginPage -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Functional Testing LoginPage</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Functional_Testing_LoginPage" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">firmLead_TechnicalInterview.LoginPage_Create_an_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">landingPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_001_Clicking_link</span>
+                <span class="method-start">6400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">6564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email</span>
+                <span class="method-start">7132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">7767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail</span>
+                <span class="method-start">8096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">8603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname</span>
+                <span class="method-start">8914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">9369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_005_NoCredentials</span>
+                <span class="method-start">9651 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">10198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_006_FirstName</span>
+                <span class="method-start">10642 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">10987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_007_LastName</span>
+                <span class="method-start">11469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">11794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginPage_CreateAnAccount_008_Email</span>
+                <span class="method-start">12145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">12544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TerminateDriver</span>
+                <span class="method-start">12864 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firmLead_TechnicalInterview.LoginPage_LoginFunctionality</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">landingPage</span>
+                <span class="method-start">13095 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_012_Email_TextBoxenable</span>
+                <span class="method-start">17636 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">17789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_013_Password_TextBoxEnable</span>
+                <span class="method-start">18171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">18208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginFunctionality_014_ValidEmail_ValidPassword</span>
+                <span class="method-start">18666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">19123 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_015_InvalidEmail_ValidPassword</span>
+                <span class="method-start">19508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">20107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_016_ValidEmail_InvalidPassword</span>
+                <span class="method-start">20385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">20763 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_017_NoEmail_NoPassword</span>
+                <span class="method-start">21078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">21420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">loginFunctionality_018_InvalidEmail_InvalidPassword</span>
+                <span class="method-start">21711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">22049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TerminateDriver</span>
+                <span class="method-start">22305 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">firmLead_TechnicalInterview.LoginPage_ForgetPass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">landingPage</span>
+                <span class="method-start">22415 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Forget_Password_Linkfunctionality</span>
+                <span class="method-start">26911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">27089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Forget_Password_funct</span>
+                <span class="method-start">27466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BackToLandingPage</span>
+                <span class="method-start">27560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">TerminateDriver</span>
+                <span class="method-start">27797 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

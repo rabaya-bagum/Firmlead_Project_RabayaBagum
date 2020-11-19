@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Functional Testing LoginPage">
+
+	<test name="LoginPage_Create_an_Account">
+		<classes>
+			<class name="firmLead_TechnicalInterview.LoginPage_Create_an_Account" />
+		</classes>
+	</test>
+
+	<test name="LoginPage_LoginFunctionality">
+		<classes>
+			<class
+				name="firmLead_TechnicalInterview.LoginPage_LoginFunctionality" />
+		</classes>
+	</test>
+
+	<test name="LoginPage_ForgetPass">
+		<classes>
+			<class
+				name="firmLead_TechnicalInterview.LoginPage_ForgetPass" />
+		</classes>
+	</test>
+
+	
+
+	
+
+</suite>
