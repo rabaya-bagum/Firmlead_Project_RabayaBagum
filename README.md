@@ -13,4 +13,4 @@ Step 4: Goto Run > Run Configurations
 in the VM arguments section, please add the following line "-Dtestng.dtd.http=true" (please exclude " marks)
 and then Run
 
-Please note that Chrome Browser should be in the system (Version 86.0.4240.198)
+Please note that Chrome Browser should be in the system (Tested against Version 86.0.4240.198 and Version 87.0.4280.66)
