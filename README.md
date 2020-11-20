@@ -1,16 +1,44 @@
 # Firmlead_Project_RabayaBagum
-Please follow the steps
+
+## Manual and Automation Testcases for the login page
+
+Please view the "FirmLead_TestCases_RabayaBagum_19Nov_2020.xlsx" file inside the folder of TestCases.
+
+
+**Automation Script**
+
+**Please follow the steps to run as a test Suite:**
+
 Step 1: In your command prompt, please 
 git clone https://github.com/rabaya-bagum/Firmlead_Project_RabayaBagum.git
 
 (Please note that Git need to be installed in your machine)
 
-Step 2: Goto Eclipse and from File Menu open Projects from fileSystem
+Step 2: Go to Eclipse and from File Menu>> open Projects from fileSystem
+  
+Step 3: Click on the FirmLead_TechnicalInterview.xml file and then run as>> "TestNG Suite"
 
-Step 3: Click on the FirmLead_TechnicalInterview.xml
+Note: If the console comes up with an error for http issue, please Go to Run >> Run Configurations
+A dialog will appear. In the VM arguments section, please add the following line "-Dtestng.dtd.http=true" (please exclude quotation marks)
+and then Run
 
-Step 4: Goto Run > Run Configurations
-in the VM arguments section, please add the following line "-Dtestng.dtd.http=true" (please exclude " marks)
+**Please follow the  same steps 1 & 2 above to run as an individual test:**
+
+Step 3: Click on src/test/java
+Step 4: Click on firmLead_TechnicalInterview
+Step 5:  To run individual test >>Click on LoginPage_Create_an_Account.java >> run as>> testNG test
+
+Note: If the console comes up with an error for http issue, please Go to Run >> Run Configurations
+A dialog will appear. In the VM arguments section, please add the following line "-Dtestng.dtd.http=true" (please exclude quotation marks)
 and then Run
 
 Please note that Chrome Browser should be in the system (Tested against Version 86.0.4240.198 and Version 87.0.4280.66)
+
+Some Screenshots that might be helpful to run the project
+
+![alt text](https://github.com/rabaya-bagum/Firmlead_Project_RabayaBagum/blob/master/OpenedProjectUnderEclipse.PNG)
+![alt text](https://github.com/rabaya-bagum/Firmlead_Project_RabayaBagum/blob/master/AddUnderVMarguments.PNG)
+
+
+
+
