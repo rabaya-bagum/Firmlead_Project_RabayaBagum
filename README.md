@@ -24,14 +24,20 @@ and then Run
 
 TestReport:
 Step1: After running testNg test suite, Go to file>> click on refresh
+
 Step2: Click on test-output folder
+
 Step3: Click on " index.html>>  Right click >>open with>> web browser
+
 Step 4: You will able to see test report
+
 
 **Please follow the  same steps 1 & 2 above to run as an individual test:**
 
 Step 3: Click on src/test/java
+
 Step 4: Click on firmLead_TechnicalInterview
+
 Step 5:  To run individual test >>Click on LoginPage_Create_an_Account.java >> run as>> testNG test
 
 Note: If the console comes up with an error for http issue, please Go to Run >> Run Configurations
@@ -42,6 +48,7 @@ and then Run
 
 **Precondition**:
 Automation Framework and tools: Selenium (Web Driver), Maven TestNG
+
 Programming language and IDE’s: Java, Maven, Eclipse 
 
 Please note that Chrome Browser should be in the system (Tested against Version 86.0.4240.198 and Version 87.0.4280.66)
