@@ -5,10 +5,16 @@
     <classes>
       <class name="firmLead_TechnicalInterview.LoginPage_Create_an_Account">
         <methods>
+          <include name="LoginPage_CreateAnAccount_007_LastName"/>
           <include name="landingPage"/>
           <include name="TerminateDriver"/>
+          <include name="LoginPage_CreateAnAccount_005_NoCredentials"/>
           <include name="LoginPage_CreateAnAccount_002_Valid_FirstName_LastName_Email"/>
+          <include name="LoginPage_CreateAnAccount_003_Valid_FirstName_validEmail"/>
+          <include name="LoginPage_CreateAnAccount_006_FirstName"/>
           <include name="BackToLandingPage"/>
+          <include name="LoginPage_CreateAnAccount_004_Valid_FirstName_validlastname"/>
+          <include name="LoginPage_CreateAnAccount_008_Email"/>
         </methods>
       </class> <!-- firmLead_TechnicalInterview.LoginPage_Create_an_Account -->
     </classes>
@@ -17,12 +23,31 @@
     <classes>
       <class name="firmLead_TechnicalInterview.LoginPage_LoginFunctionality">
         <methods>
+          <include name="loginFunctionality_013_Password_TextBoxEnable"/>
           <include name="loginFunctionality_014_ValidEmail_ValidPassword"/>
           <include name="BackToLandingPage"/>
+          <include name="loginFunctionality_018_InvalidEmail_InvalidPassword"/>
           <include name="landingPage"/>
+          <include name="loginFunctionality_017_NoEmail_NoPassword"/>
           <include name="TerminateDriver"/>
+          <include name="loginFunctionality_012_Email_TextBoxenable"/>
+          <include name="loginFunctionality_015_InvalidEmail_ValidPassword"/>
+          <include name="loginFunctionality_016_ValidEmail_InvalidPassword"/>
         </methods>
       </class> <!-- firmLead_TechnicalInterview.LoginPage_LoginFunctionality -->
     </classes>
   </test> <!-- LoginPage_LoginFunctionality(failed) -->
+  <test thread-count="5" name="LoginPage_ForgetPass(failed)">
+    <classes>
+      <class name="firmLead_TechnicalInterview.LoginPage_ForgetPass">
+        <methods>
+          <include name="TerminateDriver"/>
+          <include name="BackToLandingPage"/>
+          <include name="Forget_Password_funct"/>
+          <include name="Forget_Password_Linkfunctionality"/>
+          <include name="landingPage"/>
+        </methods>
+      </class> <!-- firmLead_TechnicalInterview.LoginPage_ForgetPass -->
+    </classes>
+  </test> <!-- LoginPage_ForgetPass(failed) -->
 </suite> <!-- Failed suite [Functional Testing LoginPage] -->
